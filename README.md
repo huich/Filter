@@ -1,6 +1,6 @@
-## Angular-filter  
+# Angular-filter  
 ******
-#### Angular-过滤器  
+## Angular-过滤器  
 **AngularJS内置了很多过滤器，在HTML模板的绑定符号{{}}内通过｜来调用过滤器**  
 ******
 目录  
