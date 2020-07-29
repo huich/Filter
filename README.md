@@ -22,16 +22,16 @@ $scope.pageData.Str="cheng";
 * 数字转换千分位 
 ```
 $scope.pageData.Num=1000;
-{{pageData.Num|number}}//输出==》1,000
+{{pageData.Num|number}}//输出==>1,000
 ``` 
 * 日期格式转换 
 ```
 $scope.pageData.Date=new Date();
-{{pageData.Date|date:'yy-MM-dd'}}//输出==》2020-01-10
+{{pageData.Date|date:'yy-MM-dd'}}//输出==>2020-01-10
 ``` 
 * 数字格式化成货币 
 ```
 $scope.pageData.Money=1000;
-{{pageData.Money|currency:'¥'}}//输出==》￥1,000.00
+{{pageData.Money|currency:'¥'}}//输出==>￥1,000.00
 ``` 
   
