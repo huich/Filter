@@ -32,6 +32,6 @@ $scope.pageData.Date=new Date();
 * 数字格式化成货币 
 ```
 $scope.pageData.Money=1000;
-{{pageData.Money|currency:'¥'}}//输出==>￥1,000.00
+{{pageData.Money|currency:'¥'}}//输出==>¥1,000.00
 ``` 
   
