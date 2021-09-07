@@ -7,6 +7,9 @@
 |框架| angular | vue | react |
 |:--------:|:--------:| :--------:|:--------:|
 |pipes| :white_check_mark: | :white_check_mark: |:heavy_multiplication_x:|
+
+react没有pipe的概念并不代表他不能实现管道 :point_right:[参考](https://stackoverflow.com/questions/54668921/how-we-can-use-pipes-in-react-javascript/54668977)
+
 ## Angular-Pipes 
 **AngularJS内置了很多过滤器，在HTML模板的绑定符号{{}}内通过｜来调用管道**  
  
