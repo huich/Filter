@@ -1,7 +1,7 @@
 
 # 过滤器(管道)
 ******
-**这里讲到过滤器，现在我更愿意称它为[pipes](https://github.com/huich/Pipes/blob/master/items/pipe.md)(管道)。刚接触angular时，称它为过滤器，用来格式化数字(千分位)、日期、金额加￥，很方便。这也是我总结它的原因，总结的过程中看了官方文档，无论是angular还是vue,他们叫过滤器为管道，数据通过管道来转换格式，更方便理解了** 
+**这里讲到过滤器，现在我更愿意称它为[pipes](https://github.com/huich/Pipes/blob/master/items/pipe.md)(管道)。刚接触angular时，称它为过滤器，用来格式化数字(千分位)、日期、金额加￥，很方便。这也是我总结它的原因，总结的过程中看了官方文档，无论是angular还是vue,他们都提到了管道的概念，数据通过管道来转换格式，更方便理解了** 
 
 #### 框架使用情况 :point_down:
 |框架| angular | vue | react |
