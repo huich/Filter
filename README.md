@@ -8,13 +8,14 @@
 |:--------:|:--------:| :--------:|:--------:|
 |pipes| :white_check_mark: | :white_check_mark: |:heavy_multiplication_x:|
 
-react没有pipe的概念并不代表他不能实现管道 :point_right:[参考](https://stackoverflow.com/questions/54668921/how-we-can-use-pipes-in-react-javascript/54668977)
+* react没有pipe的概念并不代表他不能实现管道 :point_right:[参考](https://stackoverflow.com/questions/54668921/how-we-can-use-pipes-in-react-javascript/54668977)
+
+******
 
 ## Angular-Pipes 
 **AngularJS内置了很多过滤器，在HTML模板的绑定符号{{}}内通过｜来调用管道**  
  
-******
-1. 内置过滤器  
+1. 内置管道  
 * 字母转换成大写 
 ```
 $scope.pageData.Str="cheng";
@@ -35,4 +36,9 @@ $scope.pageData.Date=new Date();
 $scope.pageData.Money=1000;
 {{pageData.Money|currency:'¥'}}//输出==>¥1,000.00
 ```
+2.自定义管道 
+
+******
+## vue-filters
+**可以在{{date|formatdate}}实现，或者使用'v-bind' ```<div v-bind:id="rawId | formatId"></div>```**
   
